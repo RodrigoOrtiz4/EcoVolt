@@ -1,0 +1,28 @@
+package com.ecovolt.app.data.remote
+
+import com.example.myapplication.model.Lectura
+import com.example.myapplication.model.MomentoLectura
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+// Formato del JSON que responde la API. Se separa del modelo para que
+// un cambio en la API no afecte al resto de la app.
+@Serializable
+data class LecturaDto(
+    val id: Int,
+    val fecha: String,
+    val momento: String,                 // "viernes" o "lunes"
+    @SerialName("valor_kwh") val valorKwh: Double
+)
+fun LecturaDto.toModel() = Lectura(
+    id = id,
+    fecha = fecha,
+    momento = if (momento == "lunes") MomentoLectura.LUNES_INICIO else MomentoLectura.VIERNES_CIERRE,
+    valorKwh = valorKwh
+)
+
+fun Lectura.toDto() = LecturaDto(
+    id = id,
+    fecha = fecha,
+    momento = if (momento == MomentoLectura.LUNES_INICIO) "lunes" else "viernes",
+    valorKwh = valorKwh
+)
