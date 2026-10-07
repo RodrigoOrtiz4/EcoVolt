@@ -20,11 +20,11 @@ dependencies {
 }
 
 android {
-    namespace = "com.ecovolt.app"
+    namespace = "com.example.ecovolt_00"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.example.ecovolt_00"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1

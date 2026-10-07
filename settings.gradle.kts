@@ -1,4 +1,4 @@
-rootProject.name = "MyApplication"
+rootProject.name = "Ecovolt_00"
 
 pluginManagement {
     repositories {
