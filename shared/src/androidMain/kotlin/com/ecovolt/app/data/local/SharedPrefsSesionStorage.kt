@@ -1,4 +1,4 @@
-package com.example.myapplication.data.local
+package com.ecovolt.app.data.local
 
 import android.content.Context
 import kotlinx.serialization.json.Json

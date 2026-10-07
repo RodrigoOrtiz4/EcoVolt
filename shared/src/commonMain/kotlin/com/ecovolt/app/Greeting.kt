@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.ecovolt.app
 
 class Greeting {
     private val platform = getPlatform()

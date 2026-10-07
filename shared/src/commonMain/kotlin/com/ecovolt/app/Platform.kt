@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.ecovolt.app
 
 interface Platform {
     val name: String

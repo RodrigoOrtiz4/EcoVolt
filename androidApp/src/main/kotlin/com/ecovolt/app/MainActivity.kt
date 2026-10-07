@@ -1,12 +1,11 @@
-package com.example.myapplication
+package com.ecovolt.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.runtime.Composable
-import com.example.myapplication.data.local.SharedPrefsLecturaStorage
-import com.example.myapplication.data.local.SharedPrefsSesionStorage
+import com.ecovolt.app.data.local.SharedPrefsLecturaStorage
+import com.ecovolt.app.data.local.SharedPrefsSesionStorage
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

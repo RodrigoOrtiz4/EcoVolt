@@ -1,7 +1,7 @@
 package com.ecovolt.app.data.remote
 
-import com.example.myapplication.model.Lectura
-import com.example.myapplication.model.MomentoLectura
+import com.ecovolt.app.model.Lectura
+import com.ecovolt.app.model.MomentoLectura
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 // Formato del JSON que responde la API. Se separa del modelo para que

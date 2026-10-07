@@ -1,4 +1,4 @@
-package com.example.myapplication.data.local
+package com.ecovolt.app.data.local
 
 import android.content.Context
 import com.example.myapplication.config.AppConfig
@@ -6,8 +6,6 @@ import com.example.myapplication.data.remote.LecturaDto
 import com.example.myapplication.data.remote.toDto
 import com.example.myapplication.data.remote.toModel
 import com.example.myapplication.model.Lectura
-import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 
 // Código específico de Android: usa SharedPreferences, que no existe en otras plataformas.

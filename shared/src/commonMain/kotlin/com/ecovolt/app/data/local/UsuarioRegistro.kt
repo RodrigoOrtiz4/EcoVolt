@@ -1,6 +1,6 @@
 package com.ecovolt.app.data.local
 
-import com.example.myapplication.model.Rol
+import com.ecovolt.app.model.Rol
 import kotlinx.serialization.Serializable
 
 // Así viene cada usuario en usuarios.json. Se guarda el hash, nunca la contraseña.

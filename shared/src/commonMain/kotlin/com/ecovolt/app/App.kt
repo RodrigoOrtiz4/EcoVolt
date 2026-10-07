@@ -1,12 +1,12 @@
-package com.example.myapplication
+package com.ecovolt.app
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import com.example.myapplication.data.remote.EcoVoltApi
-import com.example.myapplication.data.remote.createHttpClient
-import com.example.myapplication.data.repository.AuthRepository
-import com.example.myapplication.navigation.AppNavHost
-import com.example.myapplication.ui.theme.EcoVoltTheme
+import com.ecovolt.app.data.remote.EcoVoltApi
+import com.ecovolt.app.data.remote.createHttpClient
+import com.ecovolt.app.data.repository.AuthRepository
+import com.ecovolt.app.navigation.AppNavHost
+import com.ecovolt.app.ui.theme.EcoVoltTheme
 
 // Raíz de la UI compartida. Los almacenamientos llegan desde fuera porque
 // su implementación es específica de cada plataforma.

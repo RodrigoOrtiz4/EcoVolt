@@ -1,6 +1,6 @@
 package com.ecovolt.app.data.remote
 
-import com.example.myapplication.config.AppConfig
+import com.ecovolt.app.config.AppConfig
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.HttpTimeout
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation

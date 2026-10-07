@@ -1,4 +1,4 @@
-package com.example.myapplication.service
+package com.ecovolt.app.service
 
 import java.security.MessageDigest
 

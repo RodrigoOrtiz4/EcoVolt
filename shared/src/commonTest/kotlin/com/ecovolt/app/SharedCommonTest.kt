@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.ecovolt.app
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
