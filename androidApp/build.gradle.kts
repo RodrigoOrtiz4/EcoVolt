@@ -20,7 +20,7 @@ dependencies {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.ecovolt.app"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {

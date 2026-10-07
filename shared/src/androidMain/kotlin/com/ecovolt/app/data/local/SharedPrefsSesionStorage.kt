@@ -1,6 +1,7 @@
 package com.ecovolt.app.data.local
 
 import android.content.Context
+import com.ecovolt.app.model.Usuario
 import kotlinx.serialization.json.Json
 
 // Código específico de Android: recuerda la sesión con SharedPreferences (privado de la app).

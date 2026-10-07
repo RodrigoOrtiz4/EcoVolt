@@ -11,7 +11,7 @@ plugins {
 kotlin {
     
     android {
-       namespace = "com.example.myapplication.shared"
+       namespace = "com.ecovolt.app.shared"
        compileSdk = libs.versions.android.compileSdk.get().toInt()
        minSdk = libs.versions.android.minSdk.get().toInt()
     

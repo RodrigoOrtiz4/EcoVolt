@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.ecovolt.app.data.local.SharedPrefsLecturaStorage
 import com.ecovolt.app.data.local.SharedPrefsSesionStorage
+import com.ecovolt.app.data.local.SharedPrefsUsuariosStorage
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +16,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             App(
                 storage = SharedPrefsLecturaStorage(applicationContext),
-                sesionStorage = SharedPrefsSesionStorage(applicationContext)
+                sesionStorage = SharedPrefsSesionStorage(applicationContext),
+                usuariosStorage = SharedPrefsUsuariosStorage(applicationContext)
             )
         }
     }

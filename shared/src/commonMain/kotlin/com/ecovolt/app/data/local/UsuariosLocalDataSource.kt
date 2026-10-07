@@ -1,7 +1,7 @@
 package com.ecovolt.app.data.local
 
 import kotlinx.serialization.json.Json
-import ecovolt.shared.generated.resources.Res
+import myapplication.shared.generated.resources.Res
 
 // Lee las credenciales predefinidas desde composeResources/files/usuarios.json
 class UsuariosLocalDataSource {

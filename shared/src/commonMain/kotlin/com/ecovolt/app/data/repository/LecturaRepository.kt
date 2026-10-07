@@ -1,11 +1,11 @@
 package com.ecovolt.app.data.repository
 
-import com.example.myapplication.data.local.LecturaStorage
-import com.example.myapplication.data.remote.EcoVoltApi
-import com.example.myapplication.data.remote.toModel
-import com.example.myapplication.model.Lectura
-import com.example.myapplication.model.MomentoLectura
-import com.example.myapplication.service.ConsumoService
+import com.ecovolt.app.data.local.LecturaStorage
+import com.ecovolt.app.data.remote.EcoVoltApi
+import com.ecovolt.app.data.remote.toModel
+import com.ecovolt.app.model.Lectura
+import com.ecovolt.app.model.MomentoLectura
+import com.ecovolt.app.service.ConsumoService
 import kotlin.coroutines.cancellation.CancellationException
 
 // Repositorio: unifica la fuente remota (API) y la local (almacenamiento).
